@@ -30,7 +30,7 @@ Real estate rental and sales platform (NDA).
 Photo Metadata AI — a desktop app for photographers: AI-generated metadata, CSV export, file metadata rewriting. I came up with and designed the product myself.
 - Wrote the full product spec, business logic, and user flow
 - Built the entire frontend and backend integration
-- Built an interactive prototype for onboarding and AI-environment setup
+- Built an interactive prototype
 - Consulted with specialists on the data model and API contract
 - Managed the backlog and tasks in Git Project
 - Shipped MVP in 1 month; now being packaged as a macOS app
