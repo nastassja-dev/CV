@@ -1,8 +1,11 @@
-# Anastasia Kamenskikh
+# Anastasiia Kamenskikh
 Frontend Developer (React/TypeScript) → AI-native Developer
 
-Telegram: @true_kamenskikh | GitHub: @nastassja-dev | true.kamenskikh@gmail.com
-Portfolio: https://github.com/stars/nastassja-dev/lists/portfolio
+true.kamenskikh@gmail.com
+
+Linkedin: [Anastasiia Kamenskikh](https://www.linkedin.com/in/anastasiia-kamenskikh/)
+
+[GitHub](https://github.com/nastassja-dev) | [GitHub Portfolio](https://github.com/stars/nastassja-dev/lists/portfolio)
 
 ## Summary
 5+ years of experience at the intersection of product and development. Frontend on React/TypeScript, plus building an AI product from concept to MVP in a month, an AI-powered content automation pipeline, and everyday work with AI agents (Codex). Before that, 4 years running my own businesses.
