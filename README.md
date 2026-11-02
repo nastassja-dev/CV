@@ -1,58 +1,69 @@
 # Anastasiia Kamenskikh
-Frontend Developer (React/TypeScript) → AI-native Developer
+**Frontend Engineer · React · TypeScript · Headless CMS**
 
-true.kamenskikh@gmail.com
+TG: [@true_kamenskikh](https://t.me/true_kamenskikh) · true.kamenskikh@gmail.com · [Portfolio](https://github.com/stars/nastassja-dev/lists/portfolio)
 
-Linkedin: [Anastasiia Kamenskikh](https://www.linkedin.com/in/anastasiia-kamenskikh/)
+---
 
-[GitHub](https://github.com/nastassja-dev) | [GitHub Portfolio](https://github.com/stars/nastassja-dev/lists/portfolio)
+Frontend Engineer focused on React, TypeScript, and headless CMS integration. Background in product, advertising, and operations gives me a practical read on business logic. Work with specs and the team, ship independently, consult backend on API contracts, and catch UX gaps before they reach users. Interested in AI-integrated products and UI gamification.
 
-## Summary
-5+ years of experience at the intersection of product and development. Frontend on React/TypeScript, plus building an AI product from concept to MVP in a month, an AI-powered content automation pipeline, and everyday work with AI agents (Codex). Before that, 4 years running my own businesses.
+---
 
 ## Experience
 
-### Health & Help — Frontend Developer / CMS Integration (Jul 2026 — present)
-International NGO delivering medical aid to hard-to-reach regions.
-- Build pages and components from Figma, fully responsive
-- Integrate Directus CMS; set up the admin panel so content editors work without a developer
-- Refactor legacy code to fit the current architecture
-- Stack: Next.js 14 (App Router), Directus SDK, TanStack Query, CSS Modules, Storybook, Docker
+### Frontend Developer / CMS Integration · Jul 2026 — present
+**Health & Help** — international NGO delivering medical aid to hard-to-reach regions · [he-he.org](https://he-he.org)
 
-### Akatosfera — Frontend Developer (May 2026 — Jul 2026)
-Real estate rental and sales platform (NDA).
-- Shipped features and bug fixes sprint over sprint
-- Joined an unfamiliar codebase with no onboarding and got oriented quickly
-- Closed a batch of long-standing bugs in validation, auth, and listing creation
-- Paired on code review with another frontend developer
+- Built the Publications section from scratch. Article list with search, category filters and URL-synced pagination. Article page with FAQ, tags, CTA banner, share pop-up, latest-posts block, SEO metadata and fallback states.
+- Connected Publications to Directus 11 via server-side ContentService. Publications, types, tags, FAQ, banners, SEO fields, social links and UI copy are all managed from the CMS without developer involvement.
+- Designed the multilingual content model. A publication shows only when a translation exists for the active language and its status is published, otherwise returns 404. M2M/M2O relations, slug/URL field, full Open Graph and Twitter Cards support.
+- Built search with autocomplete. Next.js route handler, React Query, text normalisation (case, hyphens, apostrophes, ё/е), stop-words for multiple languages, suggestions from CMS key-phrases, tags and title n-grams.
+- Extended design system library-v2 with Select, Accordion, Tag, Breadcrumbs, SearchInput, ShareButton, SharePopUp and PhotoPlaceholder. Each component has colocated Storybook stories.
+- Maintained Directus schema as code with snapshots, diff-based migrations and seed data. Pre-commit pipeline runs lint, type-check and production build before every merge.
 
-### Architech AI — Frontend Developer / Product Owner (Apr 2026 — Jun 2026)
-Photo Metadata AI — a desktop app for photographers: AI-generated metadata, CSV export, file metadata rewriting. I came up with and designed the product myself.
-- Wrote the full product spec, business logic, and user flow
-- Built the entire frontend and backend integration
-- Built an interactive prototype
-- Consulted with specialists on the data model and API contract
-- Managed the backlog and tasks in Git Project
-- Shipped MVP in 1 month; now being packaged as a macOS app
-- Stack: Zustand, Axios, Sass; infra: Docker, FastAPI
+*Next.js 14 (App Router, Server Components), Directus 11 SDK, TanStack React Query, CSS Modules, Storybook, Docker, TypeScript*
 
-### AI Content Automation Pipeline — personal project
-Google Apps Script, Gemini API, Google Sheets, RSS, Telegram Bot API
-- Built an automated AI pipeline that collects, filters, and processes news, generates structured content, and publishes it to Telegram
-- Implemented a fallback to RSS for pages with inaccessible HTML, plus robust error handling for the Gemini API
-- Designed the workflow with status tracking, data deduplication, and manual editorial review before publishing
+---
 
-### Freelance projects — Frontend Developer (Feb 2025 — Dec 2025)
-Built SPAs with React and TypeScript: UI, routing, global state, API integration, testing.
-- Auth app: Magic Link sign-in, protected routes, async request states
-- Skill-sharing platform: team of 11 developers, Git branch workflow
-- Order builder: Redux Toolkit, WebSocket, test coverage on core flows
+### Frontend Developer / Product Owner · Apr — Jul 2026
+**Commercial projects**
 
-### Self-employed — Founder / Operations & Project Manager (Jan 2021 — Jan 2025)
-Launched and ran two businesses: a 20-person photography team and an architectural structures manufacturing company. Pitched investors, brought the product to market in 1.5 months, broke even in the first season. Hired, onboarded, set tasks, handled reporting.
+**Photo Metadata AI** (Kodik+) — desktop app for stock photographers. Authored the idea, wrote the full product spec, UX copy and component state logic. Built an interactive onboarding prototype. Led the Git Project board, consulted backend on the data model and API contract. Working MVP delivered in 1 month.
+[Landing](https://slavaklkv.github.io/photo_metadata_ai/landing/) · [GitHub](https://github.com/SlavaKlkv/photo_metadata_ai)
 
-## Stack
-JavaScript ES6+, TypeScript, React, Redux Toolkit, Zustand, React Router, CSS Modules/SCSS/BEM, REST API, WebSocket, Jest, Cypress, Docker, Figma, Codex, Google Apps Script, Gemini API, Telegram Bot API
+**Akatosfera** (NDA) — real estate platform. Shipped components and features sprint over sprint, cleared a months-old bug backlog across validation, auth and listing-creation modules. Onboarded into an unfamiliar codebase within a few days.
+
+*React, TypeScript, Zustand, React Hook Form, Yup/Zod, Material UI, i18next, PWA, Sass*
+
+---
+
+### Frontend Developer · Feb — Dec 2025
+**Project work**
+
+3 SPAs: Magic Link auth app, skill-sharing platform built with an 11-person team, order builder with Redux Toolkit and WebSocket with test coverage on core flows.
+
+*React, TypeScript, Redux Toolkit, REST API, WebSocket, SCSS, Ant Design, Jest, Cypress*
+
+---
+
+### Founder / Operations & Project Manager · 2021 — 2024
+**Own projects (sole proprietor)**
+
+Launched two businesses from zero: a photography team of 20 people and an architectural structures manufacturer. Pitched to investors. Both broke even in the first season.
+
+---
+
+## Skills
+
+**Core:** JavaScript ES6+, TypeScript, React, Next.js 14, Redux Toolkit, Zustand, TanStack React Query  
+**UI:** SCSS / Sass, CSS Modules, BEM, Flexbox, Responsive, Ant Design, Material UI  
+**CMS / Infra:** Directus 11 SDK, Headless CMS, Docker, Vite, Webpack, Git  
+**API / DX:** REST API, Axios, WebSocket, OpenAPI codegen, Jest, Cypress, Storybook, ESLint  
+**Tools:** Figma, Jira, Notion, Git Projects, Cursor, ChatGPT, Codex  
+**Languages:** Russian — native, English — B1
+
+---
 
 ## Education
-Yandex Practicum — Frontend Developer, professional retraining program, 2025
+
+Professional retraining diploma — Frontend Developer · Yandex Practicum, 2025
